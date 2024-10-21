@@ -1,13 +1,13 @@
+import { Routes, Route } from "react-router-dom";
+import Dashboard from "./homepage";
 import React from "react";
-import Header from "../components/organisms/header";
 
-const App = () => {
+export default function App() {
   return (
     <>
-      <Header />
-      <h1>Create App</h1>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+      </Routes>
     </>
   );
-};
-
-export default App;
+}

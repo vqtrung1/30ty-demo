@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <>
       <Header />
-      <h1>Create App</h1>
+      <h1>Create Appssss</h1>
     </>
   );
 };
